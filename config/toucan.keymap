@@ -49,80 +49,80 @@
         base {
             display-name = "BASE";
             bindings = <
-                _______ &kp Q   &kp W   &kp E   &kp R   &kp T   &kp Y &kp U     &kp I   &kp O   &kp P    _______
-                _______ MY_AGUI MY_SALT MY_DSFT MY_FCTL &kp G   &kp H MY_JCTL   MY_KSFT MY_LALT MY_CGUI  _______
-                _______ &kp Z   &kp X   &kp C   &kp V   &kp B   &kp N   &kp M &kp COMMA &kp DOT &kp FSLH _______
-                                       TG_MEDI TG_NAV TG_MOUS   TG_SYMB TG_NUM TG_FUN
+                _______  &kp   Q  &kp   W  &kp   E  &kp   R   &kp T        &kp Y   &kp   U  &kp     I  &kp   O  &kp    P  _______
+                _______  MY_AGUI  MY_SALT  MY_DSFT  MY_FCTL   &kp G        &kp H   MY_JCTL    MY_KSFT  MY_LALT   MY_CGUI  _______
+                _______  &kp   Z  &kp   X  &kp   C  &kp   V   &kp B        &kp N   &kp   M  &kp COMMA  &kp DOT  &kp FSLH  _______
+                                           TG_MEDI  TG_NAV  TG_MOUS        TG_SYMB  TG_NUM     TG_FUN
             >;
         };
 
         nav {
             display-name = "NAV";
             bindings = <
-                &kp TAB     &kp N1          &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
-                &bt BT_CLR  &bt BT_SEL 0    &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
-                &kp LSHFT   &studio_unlock  &trans       &trans       &trans       &trans         &trans   &trans   &trans &trans    &trans &trans
-                                                &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
+                _______   _______   _______     _______    _______  _______        &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp K_UNDO  _______  _______
+                _______  &kp LGUI  &kp LALT  &kp LSHIFT  &kp LCTRL  _______        &kp  LEFT  &kp   DOWN  &kp      UP  &kp  RIGHT  _______  _______
+                _______   _______   _______     _______    _______  _______        &kp HOME   &kp  PG_DN  &kp   PG_UP  &kp    END  &kp INS  _______
+                                                _______    _______  _______        &kp  RET   &kp   BSPC  &kp    RALT
             >;
         };
 
         mous {
             display-name = "MOUS";
             bindings = <
-                &kp TAB   &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSPC
-                &kp LCTRL &trans   &trans &trans   &trans   &trans      &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH &kp GRAVE
-                &kp LSHFT &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &kp TILDE
-                                          &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
+                _______   _______   _______     _______    _______  _______        &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp K_UNDO  _______  _______
+                _______  &kp LGUI  &kp LALT  &kp LSHIFT  &kp LCTRL  _______        &kp  LEFT  &kp   DOWN  &kp      UP  &kp  RIGHT  _______  _______
+                _______   _______   _______     _______    _______  _______        &kp HOME   &kp  PG_DN  &kp   PG_UP  &kp    END  &kp INS  _______
+                                                _______    _______  _______        &kp  RET   &kp   BSPC  &kp    RALT
             >;
         };
 
         butn {
             display-name = "BUTN";
             bindings = <
-                &mo TAB   &trans &kp F7 &kp F8 &kp F9 &kp F12   &kp C_VOL_DN &kp C_MUTE  &kp C_VOL_UP &trans &trans &kp BSPC
-                &kp LCTRL &trans &kp F4 &kp F5 &kp F6 &kp F11   &trans       &trans      &trans       &trans &trans &trans
-                &bt LSHFT &trans &kp F1 &kp F2 &kp F3 &kp F10   &trans       &trans      &trans       &trans &trans &trans
-                                   &kp LGUI &mo NAV &kp SPACE   &kp RET &mo 2 &kp RALT
+                _______   _______   _______     _______    _______  _______        &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp K_UNDO  _______  _______
+                _______  &kp LGUI  &kp LALT  &kp LSHIFT  &kp LCTRL  _______        &kp  LEFT  &kp   DOWN  &kp      UP  &kp  RIGHT  _______  _______
+                _______   _______   _______     _______    _______  _______        &kp HOME   &kp  PG_DN  &kp   PG_UP  &kp    END  &kp INS  _______
+                                                _______    _______  _______        &kp  RET   &kp   BSPC  &kp    RALT
             >;
         };
 
         medi {
             display-name = "MEDI";
             bindings = <
-                &mo TAB   &trans &kp F7 &kp F8 &kp F9 &kp F12   &kp C_VOL_DN &kp C_MUTE  &kp C_VOL_UP &trans &trans &kp BSPC
-                &kp LCTRL &trans &kp F4 &kp F5 &kp F6 &kp F11   &trans       &trans      &trans       &trans &trans &trans
-                &bt LSHFT &trans &kp F1 &kp F2 &kp F3 &kp F10   &trans       &trans      &trans       &trans &trans &trans
-                                   &kp LGUI &mo NAV &kp SPACE   &kp RET &mo 2 &kp RALT
+                _______   _______   _______     _______    _______  _______        &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp K_UNDO  _______  _______
+                _______  &kp LGUI  &kp LALT  &kp LSHIFT  &kp LCTRL  _______        &kp  LEFT  &kp   DOWN  &kp      UP  &kp  RIGHT  _______  _______
+                _______   _______   _______     _______    _______  _______        &kp HOME   &kp  PG_DN  &kp   PG_UP  &kp    END  &kp INS  _______
+                                                _______    _______  _______        &kp  RET   &kp   BSPC  &kp    RALT
             >;
         };
 
         num {
             display-name = "NUM";
             bindings = <
-                &mo TAB   &trans &kp F7 &kp F8 &kp F9 &kp F12   &kp C_VOL_DN &kp C_MUTE  &kp C_VOL_UP &trans &trans &kp BSPC
-                &kp LCTRL &trans &kp F4 &kp F5 &kp F6 &kp F11   &trans       &trans      &trans       &trans &trans &trans
-                &bt LSHFT &trans &kp F1 &kp F2 &kp F3 &kp F10   &trans       &trans      &trans       &trans &trans &trans
-                                   &kp LGUI &mo NAV &kp SPACE   &kp RET &mo 2 &kp RALT
+                _______  &kp  LBKT  &kp N7  &kp N8  &kp  N9    _______       _______    _______     _______   _______   _______  _______
+                _______  &kp   SQT  &kp N4  &kp N5  &kp  N8    _______       _______  &kp RCTRL  &kp RSHIFT  &kp RALT  &kp RGUI  _______
+                _______  &kp GRAVE  &kp N1  &kp N2  &kp  N3    _______       _______    _______     _______   _______   _______  _______
+                                            &kp N0  &kp DOT  &kp MINUS       _______    _______     _______
             >;
         };
 
         symb {
             display-name = "SYMB";
             bindings = <
-                &mo TAB   &trans &kp F7 &kp F8 &kp F9 &kp F12   &kp C_VOL_DN &kp C_MUTE  &kp C_VOL_UP &trans &trans &kp BSPC
-                &kp LCTRL &trans &kp F4 &kp F5 &kp F6 &kp F11   &trans       &trans      &trans       &trans &trans &trans
-                &bt LSHFT &trans &kp F1 &kp F2 &kp F3 &kp F10   &trans       &trans      &trans       &trans &trans &trans
-                                   &kp LGUI &mo NAV &kp SPACE   &kp RET &mo 2 &kp RALT
+                _______  &kp  LBRC  &kp AMPS  &kp ASTRK  &kp   LPAR  &kp  RBRC       _______    _______     _______   _______   _______  _______
+                _______  &kp   DQT  &kp DLLR  &kp PRCNT  &kp CARET  &kp  PLUS       _______  &kp RCTRL  &kp RSHIFT  &kp RALT  &kp RGUI  _______
+                _______  &kp TILDE  &kp EXCL  &kp    AT  &kp  HASH  &kp  PIPE       _______    _______     _______   _______   _______  _______
+                                              &kp  LPAR  &kp  RPAR  &kp UNDER       _______    _______     _______
             >;
         };
 
         fun {
             display-name = "FUN";
             bindings = <
-                &mo TAB   &trans &kp F7 &kp F8 &kp F9 &kp F12   &kp C_VOL_DN &kp C_MUTE  &kp C_VOL_UP &trans &trans &kp BSPC
-                &kp LCTRL &trans &kp F4 &kp F5 &kp F6 &kp F11   &trans       &trans      &trans       &trans &trans &trans
-                &bt LSHFT &trans &kp F1 &kp F2 &kp F3 &kp F10   &trans       &trans      &trans       &trans &trans &trans
-                                   &kp LGUI &mo NAV &kp SPACE   &kp RET &mo 2 &kp RALT
+                _______  &kp F12  &kp F7  &kp     F8  &kp    F9  _______       _______    _______     _______   _______   _______  _______
+                _______  &kp F11  &kp F4  &kp     F5  &kp    F6  _______       _______  &kp RCTRL  &kp RSHIFT  &kp RALT  &kp RGUI  _______
+                _______  &kp F10  &kp F1  &kp     F2  &kp    F3  _______       _______    _______     _______   _______   _______  _______
+                                          &kp ESCAPE  &kp SPACE  &kp TAB       _______    _______     _______
             >;
         };
         extra_1 {
