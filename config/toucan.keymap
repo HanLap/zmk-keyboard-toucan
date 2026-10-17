@@ -12,6 +12,8 @@
 #define SYMB 6
 #define FUN  7
 
+#define _______ &none
+
 #define MY_AGUI &mt LGUI   A
 #define MY_SALT &mt LALT   S
 #define MY_DSFT &mt LSHIFT D
@@ -47,10 +49,10 @@
         base {
             display-name = "BASE";
             bindings = <
-                &none &kp Q   &kp W   &kp E   &kp R   &kp T   &kp Y &kp U     &kp I   &kp O   &kp P   &kp BSPC
-                &none MY_AGUI MY_SALT MY_DSFT MY_FCTL &kp G   &kp H MY_JCTL   MY_KSFT MY_LALT MY_CGUI &kp SQT
-                &none &kp Z &kp X &kp C &kp V &kp B   &kp N   &kp M &kp COMMA &kp DOT &kp FSLH &kp ESC
-                                     TG_MEDI TG_NAV TG_MOUS   TG_SYMB TG_NUM TG_FUN
+                _______ &kp Q   &kp W   &kp E   &kp R   &kp T   &kp Y &kp U     &kp I   &kp O   &kp P    _______
+                _______ MY_AGUI MY_SALT MY_DSFT MY_FCTL &kp G   &kp H MY_JCTL   MY_KSFT MY_LALT MY_CGUI  _______
+                _______ &kp Z   &kp X   &kp C   &kp V   &kp B   &kp N   &kp M &kp COMMA &kp DOT &kp FSLH _______
+                                       TG_MEDI TG_NAV TG_MOUS   TG_SYMB TG_NUM TG_FUN
             >;
         };
 
